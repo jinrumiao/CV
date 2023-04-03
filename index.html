@@ -1,103 +1,141 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>Jin-Ru's Personal Site</title>
-    </head>
-    <body>
-        <table cellspacing="20">
-            <tr>
-                <td><img src="img/IMG_3007-modified.png" height="300" width="300"></td>
-                <td>
-                    <h1>Jin-Ru, Miao</h1>
-                    <p><em>Software Engineer</em></p>
-                    <table cellspacing="15">
-                        <tr>
-                            <th><a href="contact.html">Contact</a></th>
-                        </tr>
-                        <tr>
-                            <td>📱 Phone: </td>
-                            <td>0983-266-160</td>
-                        </tr>
-                        <tr>
-                            <td>📧 email: </td>
-                            <td>victor0958689801@gmail.com</td>
-                        </tr>
-                    </table>
-                </td>
-            </tr>
-        </table>
-        <p>
-            <hr size="3" noshade="">
-            <p>
-                My name is Jin-Ru, Miao, 30 years old, and I am from Houli, Taichung. I was a process and equipment
+<head>
+    <meta charset="UTF-8">
+    <title>Jin-Ru's Personal Site</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&family=Lobster&family=Merriweather&display=swap"
+          rel="stylesheet">
+</head>
+<body>
+<div class="top_container">
+    <img class="cloud1" src="img/cloud.png">
+    <h1 class="intro-name">I'm Jin-Ru, Miao</h1>
+    <h2 class="intro-describe">a programmer.</h2>
+    <img class="cloud2" src="img/cloud.png">
+    <img class="cloud3" src="img/cloud_inverse.png">
+    <img class="cloud4" src="img/cloud_inverse.png">
+    <img class="mountain" src="img/image-from-rawpixel-id-9601776-cut.png">
+</div>
+<div class="middle-container">
+    <hr size="3" noshade="">
+    <div class="profile">
+        <img src="img/IMG_3007-modified.png" height="300" width="300">
+        <h2>Hello.</h2>
+        <p class="autobiography">My name is Jin-Ru, Miao, 30 years old, and I am from Houli, Taichung. I was a process and equipment
                 engineer in INNOLUX cooperation from 07, 2017 to 09, 2022. During my career, I learned the difference
                 from both side as a process and equipment engineer. Now I am a developer of
-                <strong>Machine Learning and Deep Learning</strong>.
-            </p>
-            <hr size="3" noshade="">
-            <h3>WORK EXPERIENCE</h3>
-            <table>
+                <strong>Machine Learning and Deep Learning</strong>.</p>
+    </div>
+    <hr size="3" noshade="">
+    <div class="work-experiences">
+        <img class="work-img" src="img/suitcase.png">
+
+        <div class="work-table-div">
+            <h2>Work Experiences</h2>
+            <table class="work-table" cellspacing="15">
                 <thead>
-                    <tr>
-                        <th>Date</th>
-                        <th>Work</th>
-                    </tr>
+                <tr>
+                    <th>Date</th>
+                    <th>Work</th>
+                </tr>
                 </thead>
                 <tbody>
-                    <tr>
+                <tr>
                     <td>Jul, 2017 - Sep, 2022</td>
                     <td>Lithography Engineer in INNOLUX CORPORATION</td>
-                    </tr>
+                </tr>
                 </tbody>
             </table>
-            <hr size="3" noshade="">
-            <h3>EDUCATION</h3>
+        </div>
+    </div>
+    <hr size="3" noshade="">
+    <div class="education">
+        <img class="education-img" src="img/education.png">
+        <div class="education-div">
+            <h2>Education</h2>
             <ol>
                 <li>Department of Materials Science, National University of Tainan</li>
                 <ul>Sep 2015 – Jul 2017, Master of Materials Science</ul>
                 <li>Department of Materials Science, National University of Tainan</li>
                 <ul>Sep 2011 – Jun 2015, Bachelor of Materials Science</ul>
             </ol>
-            <hr size="3" noshade="">
-            <h3>SKILLS</h3>
-                <table cellspacing="15">
-                    <tbody>
-                        <tr>
-                            <th>Programing</th>
-                            <td></td>
-                            <th>Specialty</th>
-                            <td></td>
-                            <th>Languages</th>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td>Python: </td>
-                            <td>★★★★☆</td>
-                            <td>Semiconductor process: </td>
-                            <td>★★★☆☆</td>
-                            <td>Chinese (Native): </td>
-                            <td>★★★★★</td>
-                        </tr>
-                        <tr>
-                            <td>SQL: </td>
-                            <td>★★★☆☆</td>
-                            <td>Data analysis: </td>
-                            <td>★★★★☆</td>
-                            <td>English (Advanced, TOEIC: 790/990): </td>
-                            <td>★★★★☆</td>
-                        </tr>
-                        <tr>
-                            <td>Pytorch: </td>
-                            <td>★★★★☆</td>
-                            <td>Computer vision: </td>
-                            <td>★★★☆☆</td>
-                            <td>Taiwanese (daily use): </td>
-                            <td>★★★★☆</td>
-                        </tr>
-                    </tbody>
-                </table>
-            <hr size="3" noshade="">
-        </p>
-    </body>
+        </div>
+    </div>
+    <hr size="3" noshade="">
+    <div class="skills">
+        <h2>Skills</h2>
+        <div class="wrapper">
+            <div class="shadowbox">
+                <h3 class="skills-title">Programing</h3>
+                <dl class="group flex justify-between group-hover">
+                    <dt class="group-hover:text-bold">Python:</dt>
+                    <dd>★★★★☆</dd>
+                </dl>
+                <dl class="group flex justify-between group-hover">
+                    <dt class="group-hover:text-bold">SQL:</dt>
+                    <dd>★★★☆☆</dd>
+                </dl>
+                <dl class="group flex justify-between group-hover">
+                    <dt class="group-hover:text-bold">HTML</dt>
+                    <dd>★★★☆☆</dd>
+                </dl>
+            </div>
+            <div class="shadowbox">
+                <h3 class="skills-title">Specialty</h3>
+                <dl class="group flex justify-between group-hover">
+                    <dt class="group-hover:text-bold">Semiconductor process:</dt>
+                    <dd>★★★★☆</dd>
+                </dl>
+                <dl class="group flex justify-between group-hover">
+                    <dt class="group-hover:text-bold">Data analysis:</dt>
+                    <dd>★★★★☆</dd>
+                </dl>
+                <dl class="group flex justify-between group-hover">
+                    <dt class="group-hover:text-bold">Computer vision:</dt>
+                    <dd>★★★☆☆</dd>
+                </dl>
+            </div>
+            <div class="shadowbox">
+                <h3 class="skills-title">Languages</h3>
+                <dl class="group flex justify-between group-hover">
+                    <dt class="group-hover:text-bold">Chinese (Native):</dt>
+                    <dd>★★★★★</dd>
+                </dl>
+                <dl class="group flex justify-between group-hover">
+                    <dt class="group-hover:text-bold">English (Advanced, TOEIC: 790/990):</dt>
+                    <dd>★★★★☆</dd>
+                </dl>
+                <dl class="group flex justify-between group-hover">
+                    <dt class="group-hover:text-bold">Taiwanese (Daily use):</dt>
+                    <dd>★★★★☆</dd>
+                </dl>
+            </div>
+        </div>
+    </div>
+    <hr size="3" noshade="">
+    <div class="contact-me">
+        <h2>Get In Touch</h2>
+        <h3>Lorem ipsum dolor sit amet, non elit.</h3>
+        <p>Lorem ipsum dolor sit amet, in quis, aenean amet. Phasellus sodales, tellus donec dui, ornare erat.</p>
+        <a class="btn" href="mailto:victor0958689801@gmail.com">CONTACT ME</a>
+    </div>
+</div>
+<!--<hr size="3" noshade="">-->
+<div class="bottom-container">
+    <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
+    <a class="footer-link">•</a>
+    <a class="footer-link" href="https://twitter.com/">Twitter</a>
+    <a class="footer-link">•</a>
+    <a class="footer-link" href="https://github.com/jinrumiao">GitHub</a>
+    <p><a class="footer-link" href="https://www.flaticon.com/free-icons/education" title="education icons">Education icons created by Freepik - Flaticon</a></p>
+    <p><a class="footer-link" href="https://www.flaticon.com/free-icons/work" title="work icons">Work icons created by Freepik - Flaticon</a></p>
+
+    <p class="copyright">© 2023 Jin-Ru Miao.</p>
+</div>
+
+</body>
 </html>
